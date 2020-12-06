@@ -7,7 +7,7 @@ function bouncer(arr) {
       }
   
     }
-    return arrTrue;
+    return [arr, arrTrue];
   }
   
 console.log(bouncer([7, "ate", "", false, 9]))
